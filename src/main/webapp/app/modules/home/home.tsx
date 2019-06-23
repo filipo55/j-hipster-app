@@ -22,7 +22,7 @@ export class Home extends React.Component<IHomeProp> {
       <Row>
         <Col md="9">
           <h2>Welcome, Java Hipster!</h2>
-          <p className="lead">This is your homepage</p>
+          <p className="lead">This is your modified homepage</p>
           {account && account.login ? (
             <div>
               <Alert color="success">You are logged in as user {account.login}.</Alert>
@@ -49,7 +49,6 @@ export class Home extends React.Component<IHomeProp> {
             </div>
           )}
           <p>If you have any question on JHipster:</p>
-
           <ul>
             <li>
               <a href="https://www.jhipster.tech/" target="_blank" rel="noopener noreferrer">
@@ -85,6 +84,10 @@ export class Home extends React.Component<IHomeProp> {
             </a>
             !
           </p>
+          <h3>
+            OHIF VIEWER BUTTON
+            <button type="button">I will open a viewer soon!</button>
+          </h3>
         </Col>
         <Col md="3" className="pad">
           <span className="hipster rounded" />

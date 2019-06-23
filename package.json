@@ -13,6 +13,7 @@
     "@ohif/extension-cornerstone": "0.0.34",
     "@ohif/extension-dicom-microscopy": "0.0.6",
     "@ohif/extension-vtk": "0.0.2",
+    "any-observable": "^0.4.0",
     "classnames": "^2.2.6",
     "cornerstone-core": "^2.2.8",
     "cornerstone-math": "^0.1.8",
@@ -41,7 +42,7 @@
     "redux": "^4.0.1",
     "redux-oidc": "3.1.x",
     "rxjs": "^6.5.2",
-    "any-observable": "^0.4.0"
+    "typescript": "^3.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
